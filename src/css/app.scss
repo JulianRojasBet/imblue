@@ -1,0 +1,15 @@
+// app global css in SCSS form
+
+.w-full {
+    width: 100%;
+}
+.max-w-600 {
+    max-width: 600px;
+}
+a {
+    &:link, &:visited {
+        text-decoration: inherit;
+        color: initial;
+        cursor: pointer;
+    }
+}
